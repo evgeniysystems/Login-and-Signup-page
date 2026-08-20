@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solara - Auth Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="auth-section">
+        <div class="auth-container" id="auth-container">
+            
+            <div class="form-box register-box">
+                <form class="auth-form" id="register-form">
+                    <img draggable="false" src="assets/images/logo.svg" alt="Solara Logo" class="logo">
+                    <div class="form-pad">
+                    <h1>Create Account</h1>
+                    <p class="subtitle">
+                        Already have an account? <a href="#" id="go-to-login">Sign in</a>
+                    </p>
+
+                    <div class="input-group">
+                        <label for="reg-name">Full Name</label>
+                        <input type="text" name="name" id="reg-name" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="reg-email">E-mail</label>
+                        <input type="email" name="email" id="reg-email" placeholder="example@gmail.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="reg-password">Password</label>
+                        <div class="input-wrapper">
+                            <input type="password" name="password" id="login-password" placeholder="@#*%" required>
+                            <button type="button" class="btn-eye"><img draggable="false" src="assets/images/eye.svg"></button>
+                        </div>                    
+                    </div>
+
+                    <button type="submit" class="btn-primary">Create Account</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box login-box">
+                <form class="auth-form" id="login-form">
+                    <img draggable="false" src="assets/images/logo.svg" alt="Solara Logo" class="logo">
+                    <div class="form-pad">
+                    <h1>Sign in</h1>
+                    <p class="subtitle">
+                        Don’t have an account? <a href="#" id="go-to-register">Create now</a>
+                    </p>
+
+                    <div class="input-group">
+                        <label for="login-email">E-mail</label>
+                        <input type="email" name="email" id="login-email" placeholder="example@gmail.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="login-password">Password</label>
+                        <div class="input-wrapper">
+                            <input type="password" name="password" id="login-password" placeholder="@#*%" required>
+                            <button type="button" class="btn-eye"><img draggable="false" src="assets/images/eye.svg"></button>
+                        </div>  
+                    </div>
+
+                    <div class="form-actions">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="remember"> Remember me
+                        </label>
+                        <a href="#" class="forgot-link">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Sign in</button>
+
+                    <div class="divider">
+                        <span>OR</span>
+                    </div>
+
+                    <div class="social-login">
+                        <button type="button" class="btn-social">
+                            <img draggable="false" src="assets/images/google.svg" alt="">Continue with Google</button>
+                        <button type="button" class="btn-social">
+                            <img draggable="false" src="assets/images/facebook.svg" alt="">Continue with Facebook</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+
+<div class="overlay-panel">
+    
+    <div class="panel-bg-circle"></div>
+
+    <div class="support-header">
+        <span class="support-icon"><img draggable="false" src="assets/images/MdOutlineSupportAgent.svg" alt=""></span> 
+        <span>Support</span>
+    </div>
+
+    <div class="overlay-content">
+        
+        <div class="promo-card">
+            
+            <div class="promo-info">
+                <h2>Reach financial<br>goals faster</h2>
+                <p>Use your Venus card around the world with no hidden fees. Hold, transfer and spend money.</p>
+                <button class="btn-learn">Learn more</button>
+            </div>
+
+            <div class="promo-image">
+                <img draggable="false" src="assets/images/venus-card.png" alt="Venus Card">
+            </div>
+
+            <div class="earnings-widget">
+                <div class="earnings-icon">
+                    <span><img draggable="false" src="assets/images/Vector.svg" alt=""></span> 
+                </div>
+                <div class="earnings-data">
+                    <span class="earnings-label">Earnings</span>
+                    <span class="earnings-amount">$350.40</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="features-section">
+            <h3>Introducing new features</h3>
+            <p>Analyzing previous trends ensures that businesses always make the right decision. And as the scale of the decision and it’s impact magnifies...</p>
+        </div>
+
+        <div class="slider-controls">
+            <span class="arrow">&lt;</span>
+            <span class="dot"></span>
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="arrow">&gt;</span>
+        </div>
+
+    </div>
+</div>
+
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
